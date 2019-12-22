@@ -9,9 +9,13 @@
     />
     <meta
       name="description"
-      content="  - Harvard University, Institute for Applied Computational Science. "
+      content="  - Harvard University, Institute for Applied Computational Science. Syllabus"
     />
     <meta name="author" content="" />
+<meta
+  name="keywords"
+  content=""
+/>
 
     <!-- Bootstrap CSS -->
     <link
@@ -39,17 +43,17 @@
 
     <link
       rel="stylesheet"
-      href="../style/tipuesearch/tipuesearch.css"
+      href="./style/tipuesearch/tipuesearch.css"
     />
 
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="../style/images/favicon.ico"
+      href="./style/images/favicon.ico"
     />
-    <link rel="stylesheet" href="../style/css/iacs.css" />
+    <link rel="stylesheet" href="./style/css/iacs.css" />
 
-    <title>Harvard 2020-AC295 | Lectures</title>
+    <title>Harvard 2020-AC295 | Syllabus</title>
 
     <style>
       .navbar {
@@ -60,10 +64,10 @@
   <body>
 <nav class="navbar navbar-dark navbar-expand-md">
   <div class="container">
-    <a class="navbar-brand" href="..">
+    <a class="navbar-brand" href=".">
       <img
         class="navbar-brand-logo"
-        src="../style/images/logo.png"
+        src="./style/images/logo.png"
       />
       <h3 class="course-title">2020-AC295</h3>
     </a>
@@ -83,7 +87,7 @@
       <ul class="navbar-nav ml-auto">
         <form
           class="form-inline my-2"
-          action="../search.html"
+          action="./search.html"
           onsubmit="return validateForm(this.elements['q'].value);"
         >
           <div class="input-group input-group-sm">
@@ -107,16 +111,22 @@
   <!-- .container -->
 </nav>
     <main id="content" class="container">
-  <h1 class="category-title">Lectures</h1>
-  <br />
-  <hr />
-  <ul class="category-list">
-    <li class="category-item">
-      <a href="../lectures/lecture0/">Lecture 0</a>
-        (Jul. 09, 2018)
-    </li>
-  </ul>
-    </main>
+ <h1>Syllabus</h1>
+ <br />
+<hr />
+ <h2>Topics in Applied Computation: Advanced Practical Data Science</h2>
+<p>AC295</p>
+<p>Welcome to AC209c, Advanced Practical Data Science. This course is the third of a series after AC209a and AC209b. The course focuses on practical data science skills and will teach you how to go beyond prototyping toy models to real deployable models. 
+The material of the course is divided into 3 modules:</p>
+<ol>
+<li>How to scale a model from a prototype (often in jupyter notebooks) to the cloud. In this module, we cover virtual environments, containers, and virtual machines before learning about microservices and Kubernetes. Along the way, you  will be exposed to Dask.</li>
+<li>
+<p>How to use existing models for transfer learning. Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks. This can be very important, given the vast compute and time resources required to develop neural network models on these problems and given the huge jumps in skill that these models can provide to related problems. In this part of the course we will examine various pre-existing models and techniques in transfer learning.</p>
+</li>
+<li>
+<p>In the third part we will be introducing a number of intuitive visualization tools for investigating properties and diagnosing issues of  models. We will be demonstrating a number of visualization tools ranging from the well established (like saliency maps) to recent ones.  </p>
+</li>
+</ol>     </main>
 
 <footer class="footer">
   <div class="container">
